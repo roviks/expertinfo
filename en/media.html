@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><base target="_blank"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css"><link rel="stylesheet" href="../assets/css/font-awesome.min.css"><link rel="stylesheet" href="../assets/css/all.min.css"><link rel="stylesheet" href="../assets/css/zt-indent.css"><link rel="stylesheet" href="../assets/css/bootstrap-reboot.min.css"><link rel="stylesheet" href="../assets/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="../bundle.min.css"><title>Наши проекты — Expert Info</title><script src="../assets/js/mobile-detect.js"></script><script src="../assets/js/lightgallery.min.js"></script></head><body><header class="container"><nav id="nav" class="navbar"><button class="navbar-toggler"><div class="sticks"><div class="sticks-el"></div><div class="sticks-el"></div></div></button> <a href="/" class="navbar-brand" target="_self"><img src="../assets/imgs/logo.png" alt="Expert Info Logo"></a><div class="navbar-nav"><a href="/en" target="_self">Home</a> <a href="/en/#about" target="_self">About us</a> <a href="/en/#services" target="_self">Services</a> <a href="/en/projects.html" target="_self">Projects</a> <a href="/en/#partners" target="_self">Clients</a> <a href="/media.html" target="_self">RU</a></div></nav></header><div class="container"><h1 class="site-title">Photo/Video</h1></div><section id="media" class="section container media"><div class="section-row" id="gallery"><a href="../assets/imgs/services.jpg" class="col-md-3 media-pic"><img src="../assets/imgs/services.jpg" alt=""> </a><a href="../assets/imgs/services.jpg" class="col-md-3 media-pic"><img src="../assets/imgs/services.jpg" alt=""> </a><a href="../assets/imgs/services.jpg" class="col-md-3 media-pic"><img src="../assets/imgs/services.jpg" alt=""> </a><a href="../assets/imgs/services.jpg" class="col-md-3 media-pic"><img src="../assets/imgs/services.jpg" alt=""></a></div></section><footer id="footer" class="footer" role="contentinfo"><div class="col-sm-3 col-6"><img src="../assets/imgs/logo.png" class="w-100" alt=""></div><div class="col-sm-3 col-6"><div class="footer-title">Address</div><div class="footer-content"><p>Tashkent, Mirzo-Ulugbek district</p><p>Karasu-4 quarter, building 11 A</p></div></div><div class="col-sm-3 col-6"><div class="footer-title">Contacts</div><div class="footer-content"><p><a href="tel:+998977829116">+998 (97) 782-91-16</a></p><p><a href="mailto:info@expertinfo.uz">info@expertinfo.uz</a></p></div></div><div class="col-sm-3 col-6"><div class="footer-title">About us</div><div class="footer-content"><p>Expert Info - consulting company</p><p>© 2021. All rights reserved</p></div></div></footer><script src="../index.min.js"></script><script>const svg = `<svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            width="50"
+            data-icon="external-link-alt"
+            role="img"
+            viewBox="0 0 512 512"
+            class="svg-inline--fa fa-external-link-alt fa-w-16 fa-2x"
+          >
+            <path
+              fill="#fff"
+              d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+              class=""
+            ></path>
+          </svg>`;
+      document.querySelectorAll(".media-pic").forEach((pic) => {
+        pic.innerHTML += svg;
+      });
+
+      lightGallery(document.getElementById("gallery"), {
+        speed: 500,
+      });</script></body></html>
